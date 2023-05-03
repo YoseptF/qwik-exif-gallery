@@ -9,7 +9,6 @@ import {
   getFirestore,
 } from 'firebase/firestore/lite';
 import type { RequestEvent } from '@builder.io/qwik-city';
-import { appStore } from './store';
 
 const getFirebaseConfig = (request: RequestEvent) => ({
   apiKey: request.env.get('FIREBASE_API_KEY')!,
