@@ -20,9 +20,21 @@
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
+  "dependencies": {
+    "@mui/material": "^5.12.0",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "backblaze-b2": "^1.7.0",
+    "busboy": "^1.6.0",
+    "exifreader": "^4.12.0",
+    "firebase": "^9.19.1",
+    "firebase-admin": "^11.6.0",
+    "zustand": "^4.3.7"
+  },
   "devDependencies": {
     "@builder.io/qwik": "1.0.0",
     "@builder.io/qwik-city": "^1.0.0",
+    "@types/backblaze-b2": "^1.5.2",
+    "@types/busboy": "^1.5.0",
     "@types/eslint": "8.37.0",
     "@types/node": "^18.16.1",
     "@typescript-eslint/eslint-plugin": "5.59.1",
